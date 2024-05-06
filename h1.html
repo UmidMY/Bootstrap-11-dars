@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/m1.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open 
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog  modal-dialog-centered ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Edit</h4><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="get">
+                                <label for="a">Title:</label>
+                                <input type="text" id="a" class="form-control a" placeholder="Task Entity">
+                                <label for="b">Status:</label>
+                                <input type="text" id="b" class="form-control a" placeholder="OPEN">
+                                <label for="dist">Content:</label>
+                                <textarea name="dist" id="dist" cols="30" class="form-control" rows="5"></textarea>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
